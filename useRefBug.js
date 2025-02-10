@@ -1,0 +1,1 @@
+This error occurs when using the `useRef` hook in React Native with a functional component.  The problem arises when attempting to access the ref's current value before it's been assigned. This typically happens when you try to access the ref within the component's initial render or before the component has fully mounted.
